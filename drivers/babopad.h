@@ -4,14 +4,8 @@
  * SPDX-License-Identifier: LicenseRef-Nordic-5-Clause
  */
 
-#ifndef ZEPHYR_INCLUDE_ANALOG_INPUT_H_
-#define ZEPHYR_INCLUDE_ANALOG_INPUT_H_
-
- /**
-  * @file analog_input.h
-  *
-  * @brief Header file for the analog_input driver.
-  */
+#ifndef ZEPHYR_INCLUDE_BABOPAD_H_
+#define ZEPHYR_INCLUDE_BABOPAD_H_
 
 #include <zephyr/device.h>
 #include <zephyr/drivers/spi.h>

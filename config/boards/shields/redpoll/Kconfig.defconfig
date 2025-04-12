@@ -4,9 +4,8 @@ if SHIELD_REDPOLL
 config ZMK_KEYBOARD_NAME
 	default "Redpoll"
 	
-endif
-
 module = babopad
 module-str = babopad
 source "${ZEPHYR_BASE}/subsys/logging/Kconfig.template.log_config"
+
 endif
