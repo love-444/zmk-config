@@ -213,6 +213,7 @@ static int babopad_init(const struct device *dev) {
     //gpio_pin_configure_dt(&led, GPIO_OUTPUT_ACTIVE);
     //gpio_pin_set_dt(&led, 1);
     //k_msleep(1000);
+    input_report(dev, INPUT_EV_REL, INPUT_REL_X, 12, true, K_NO_WAIT);
 
     return err;
 }
