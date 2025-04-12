@@ -33,8 +33,8 @@
     babopad: babopad_0 {
 		compatible = "zmk,babopad";
         status = "okay";
-        adc-channels: <[0, 5, 7]>;
-        pwm-channels: <[0, 1, 2]>;
+        adc-channels: <0, 5, 7>;
+        pwm-channels: <0, 1, 2>;
 		sampling-hz = <100>;
         evt-type = <INPUT_EV_REL>;
         input-code-x = <INPUT_REL_X>;
