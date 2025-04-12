@@ -35,7 +35,8 @@
         status = "okay";
         adc-channels = <0 5 7>;
         pwm-channels = <0 1 2>;
-		sampling-hz = <100>;
+	dpi = <1000>
+	sampling-hz = <100>;
         evt-type = <INPUT_EV_REL>;
         input-code-x = <INPUT_REL_X>;
         input-code-y = <INPUT_REL_Y>;
