@@ -28,6 +28,15 @@
 	rows = <1>;
 	map = <RC(0,0)>;
     };
+
+    babopad: babopad_0 {
+		compatible = "zmk,babopad";
+        status = "okay";
+		sampling-hz = <100>;
+        evt-type = <INPUT_EV_REL>;
+        input-code-x = <INPUT_REL_X>;
+        input-code-y = <INPUT_REL_Y>;
+    };
     
     leds {
         compatible = "gpio-leds";
