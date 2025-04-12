@@ -9,8 +9,8 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: love-444
-      remote: zmk-babopad
+    - name: zmk-babopad
+      remote: love-444
       revision: main
   self:
     path: config
