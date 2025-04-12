@@ -32,7 +32,7 @@
     leds {
         compatible = "gpio-leds";
         myled0: led_0 {
-            gpios = <&gpio1 11 GPIO_ACTIVE_LOW>;        
+            gpios = <&gpio0 17 GPIO_ACTIVE_LOW>;        
         };
     };
 };
