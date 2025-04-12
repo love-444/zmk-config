@@ -1,0 +1,2 @@
+C:/Users/love-444/source/repos/zmk-config/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+C:/Users/love-444/source/repos/zmk-config/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir

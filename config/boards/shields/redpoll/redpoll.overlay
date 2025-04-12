@@ -5,6 +5,11 @@
         zmk,kscan = &kscan0;
         zmk,matrix_transform = &layout_grid_transform;
     };
+
+    aliases {
+        adc0 = &adc;
+        led0 = &myled0;
+    };
     
     kscan0: kscan {
         compatible = "zmk,kscan-gpio-matrix";
@@ -21,7 +26,21 @@
         compatible = "zmk,matrix-transform";
 	columns = <1>;
 	rows = <1>;
-	map = <RC(1,1)>;
-  };
+	map = <RC(0,0)>;
+    };
+    
+    leds {
+        compatible = "gpio-leds";
+        myled0: led_0 {
+            gpios = <&gpio1 11 GPIO_ACTIVE_LOW>;        
+        };
+    };
 };
 
+&adc {
+    status = "okay";
+};
+
+zephyr_udc0: &usbd {
+    status = "okay";
+};
