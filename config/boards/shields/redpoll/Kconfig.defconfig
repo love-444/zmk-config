@@ -6,3 +6,7 @@ config ZMK_KEYBOARD_NAME
 	
 endif
 
+module = babopad
+module-str = babopad
+source "${ZEPHYR_BASE}/subsys/logging/Kconfig.template.log_config"
+endif
