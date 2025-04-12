@@ -210,9 +210,9 @@ static int babopad_init(const struct device *dev) {
     k_work_init_delayable(&data->init_work, babopad_async_init);
     k_work_schedule(&data->init_work, K_MSEC(1));
 
-    gpio_pin_configure_dt(&led, GPIO_OUTPUT_ACTIVE);
-    gpio_pin_set_dt(&led, 1);
-    k_msleep(1000);
+    //gpio_pin_configure_dt(&led, GPIO_OUTPUT_ACTIVE);
+    //gpio_pin_set_dt(&led, 1);
+    //k_msleep(1000);
 
     return err;
 }
