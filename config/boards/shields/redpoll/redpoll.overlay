@@ -31,7 +31,7 @@
     };
 
     babopad: babopad_0 {
-		compatible = "zmk,babopad";
+		compatible = "zmk,babopad"; 
         status = "okay";
         adc-channels = <0 5 7>;
         pwm-channels = <0 1 2>;
