@@ -41,7 +41,11 @@
         input-code-x = <INPUT_REL_X>;
         input-code-y = <INPUT_REL_Y>;
     };
-    
+
+	babopad_listener {
+    	compatible = "zmk,input-listener";
+    	device = <&babopad>;
+    };
     leds {
         compatible = "gpio-leds";
         myled0: led_0 {
