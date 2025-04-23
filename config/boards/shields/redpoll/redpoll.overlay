@@ -19,7 +19,7 @@
         row-gpios
             = <&gpio1 13 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
         col-gpios
-            = <&gpio1 11 GPIO_ACTIVE_HIGH>;
+            = <&gpio1 11 GPIO_ACTIVE_LOW>;
     };
     
     layout_grid_transform:
