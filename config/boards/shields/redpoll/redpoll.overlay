@@ -71,7 +71,7 @@
             psels = <NRF_PSEL(PWM_OUT0, 0, 22)>,
                 <NRF_PSEL(PWM_OUT1, 0, 24)>,
                 <NRF_PSEL(PWM_OUT2, 1, 0)>;
-            low_power_enable;
+            low-power-enable;
         };
     };
 };
