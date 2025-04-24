@@ -52,7 +52,7 @@
     leds {
         compatible = "gpio-leds";
         myled0: led_0 {
-            gpios = <&gpio0 16 GPIO_ACTIVE_HIGH>;        
+            gpios = <&gpio1 7 GPIO_ACTIVE_HIGH>;        
         };
     };
     babopad_pwm: pwmleds {
