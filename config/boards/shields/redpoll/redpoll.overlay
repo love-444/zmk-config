@@ -10,9 +10,6 @@
     aliases {
         adc0 = &adc;
         led0 = &myled0;
-        pwm00 = &pwm_led_0;
-        pwm01 = &pwm_led_1;
-        pwm02 = &pwm_led_2;
     };
     
     kscan0: kscan {
